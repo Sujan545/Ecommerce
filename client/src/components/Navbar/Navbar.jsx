@@ -1,4 +1,4 @@
-import React from 'react'
+import { IoMdSearch } from "react-icons/io";
 
 const MenuLinks = [
     {
@@ -30,22 +30,32 @@ const Navbar = () => {
 
                 <div className="container">
                     {/* Logo and Links section */}
-                    <div>
+                    <div className='flex items-center gap-4'>
                         <a href='#' className='text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl'>
                             Eshop
                         </a>
                         {/* menu item */}
-                        <div>
-                            <ul>
+                        <div className='hidde lg:block'>
+                            <ul className='flex items-center gap-4'>
                                 {MenuLinks.map((data, index) => (
                                     <li key={index}>
-                                        <a href={data.link}>{data.name}</a>
+                                        <a href={data.link} className='inline-block px-4 font-semibold text-gray-500 hover:text-black dark:hover:text-white duration-200'>{data.name}</a>
                                     </li>
                                 ))}
                             </ul>
                         </div>
                     </div>
-                    {/* Logo and Links section */}
+                    {/* navbar right section */}
+                    <div>
+                        {/* search bar section */}
+                        <div>
+<input type="text" placeholder='Search'
+className='' />
+<IoMdSearch/>
+                        </div>
+                        {/* Dark mode section */}
+                        <div></div>
+                    </div>
                 </div>
             </div>
         </div>
