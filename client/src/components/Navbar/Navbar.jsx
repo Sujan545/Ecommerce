@@ -28,14 +28,14 @@ const Navbar = () => {
             <div className='py-4'>
 
 
-                <div className="container">
+                <div className="container flex justify-between items-center">
                     {/* Logo and Links section */}
                     <div className='flex items-center gap-4'>
                         <a href='#' className='text-primary font-semibold tracking-widest text-2xl uppercase sm:text-3xl'>
                             Eshop
                         </a>
                         {/* menu item */}
-                        <div className='hidde lg:block'>
+                        <div className='hidden sm:block'>
                             <ul className='flex items-center gap-4'>
                                 {MenuLinks.map((data, index) => (
                                     <li key={index}>
@@ -46,12 +46,12 @@ const Navbar = () => {
                         </div>
                     </div>
                     {/* navbar right section */}
-                    <div>
+                    <div className="flex justify-between items-center gap-4">
                         {/* search bar section */}
-                        <div>
-<input type="text" placeholder='Search'
-className='' />
-<IoMdSearch/>
+                        <div className="relative group hidden sm:block">
+                            <input type="text" placeholder='Search'
+                                className='search-bar' />
+                            <IoMdSearch className="text-xl text-gray-600 dark:text-gray-400"/>
                         </div>
                         {/* Dark mode section */}
                         <div></div>
