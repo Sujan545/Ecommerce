@@ -33,7 +33,7 @@ const HeroData = [
     },
 ]
 
-const Hero = () => {
+const Hero = ({handleOrderPopup}) => {
     var setting = {
         dots: true,
         infinite: true,
@@ -45,6 +45,7 @@ const Hero = () => {
         text:"Shop Now",
         bgColor:"bg-primary",
         textColor:"text-white",
+        handleOrderPopup:{handleOrderPopup},
     }
     return (
         <div className='container'>
