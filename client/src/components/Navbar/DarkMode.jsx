@@ -10,7 +10,7 @@ const DarkMode = () => {
     );
 
     const element = document.documentElement;
-    console.log(element);
+    //console.log(element);
     useEffect(() => {
         localStorage.setItem("theme", theme);
         if (theme === "dark") {
