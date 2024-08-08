@@ -41,13 +41,13 @@ const Hero = ({ handleOrderPopup }) => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
-    var ButtonSetting = {
-        text: "Shop Now",
-        bgColor: "bg-primary",
-        textColor: "text-white",
-        handler: { handleOrderPopup },
-        // handleOrderPopup:{handleOrderPopup},
-    }
+    // var ButtonSetting = {
+    //     text: "Shop Now",
+    //     bgColor: "bg-primary",
+    //     textColor: "text-white",
+    //     handler:{handleOrderPopup},
+    //     // handleOrderPopup:{handleOrderPopup},
+    // }
     return (
         <div className='container'>
             <div className='overflow-hidden rounded-3xl min-h-[550px]
@@ -86,7 +86,11 @@ const Hero = ({ handleOrderPopup }) => {
                                                 data-aos-offset="0"
                                                 data-aos-duration="500"
                                                 data-aos-delay="300">
-                                                <Button {...ButtonSetting} />
+                                                <Button 
+                                                 text= "Shop Now"
+                                                 bgColor= "bg-primary"
+                                                 textColor= "text-white"
+                                                 handler={handleOrderPopup} />
                                             </div>
                                         </div>
                                         {/* imgt section  */}
