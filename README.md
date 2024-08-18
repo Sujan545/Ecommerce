@@ -6,22 +6,22 @@
 
 1. Clone tha repository:
 
-'''bash
+```bash
 git clone https://github.com/Sujan545/Ecommerce.git
 cd client
-'''
+```
 
 2. install the dependencies:
 
-'''bash
+```bash
 npm install
-'''
+```
 
 3. start the development server:
 
-'''bash
+```bash
 npm run dev
-'''
+```
 
 # screenshot
 ![screenshot1](/client/src/assets/screensot/1.png?ram=true)
