@@ -13,7 +13,7 @@ const BlogData = [
         subtitle: "A smartwatch is a portable device designed to be worn on the wrist, supporting apps and often recording vital signs such as heart rate and other health metrics. It is a wearable computer that extends the functionality of a smartphone, providing users with a convenient and accessible way to receive notifications, track fitness and health, and control music playback",
         published: "Jan 20,2023 by Apple",
         image: Img1,
-        aosDelay:"0"
+        aosDelay: "0"
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const BlogData = [
         subtitle: "A smartwatch is a portable device designed to be worn on the wrist, supporting apps and often recording vital signs such as heart rate and other health metrics. It is a wearable computer that extends the functionality of a smartphone, providing users with a convenient and accessible way to receive notifications, track fitness and health, and control music playback",
         published: "Jan 20,2023 by Google",
         image: Img2,
-        aosDelay:"200"
+        aosDelay: "200"
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ const BlogData = [
         subtitle: "A smartwatch is a portable device designed to be worn on the wrist, supporting apps and often recording vital signs such as heart rate and other health metrics. It is a wearable computer that extends the functionality of a smartphone, providing users with a convenient and accessible way to receive notifications, track fitness and health, and control music playback",
         published: "Jan 20,2023 by Apple Vision",
         image: Img3,
-        aosDelay:"400"
+        aosDelay: "400"
     },
 ]
 
@@ -45,9 +45,9 @@ const Blogs = () => {
                     {/* Blog Card */}
                     {BlogData.map((data) => (
                         <div
-                        data-aos="fade-up"
-                        dasta-aos-delay={data.aosDelay}
-                         key={data.id} className='bg-white dark:bg-gray-900'>
+                            data-aos="fade-up"
+                            dasta-aos-delay={data.aosDelay}
+                            key={data.id} className='bg-white dark:bg-gray-900'>
                             {/* Image secttion */}
                             <div className='overflow-hidden rounded-2xl mb-2'>
                                 <img src={data.image} alt="" className='w-full h-[220px] object-cover rounded-2xl hover:scale-105 duration-500' />

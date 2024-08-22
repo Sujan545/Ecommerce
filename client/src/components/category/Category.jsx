@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from'../Shared/Button'
+import Button from '../Shared/Button'
 import Image1 from '../../assets/category/earphone.png'
 import Image2 from '../../assets/category/watch.png'
 import Image3 from '../../assets/category/macbook.png'
@@ -17,10 +17,10 @@ const Category = () => {
                 <p className='mb-[2px] text-gray-400'>Enjoy</p>
                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
                 <p className='text-4xl xl:text-5xl font-bold opacity-20 mb-2'>Earphone</p>
-                <Button 
-                text="Browse"
-                bgColor={"bg-primary"}
-                textColor={"text-white"}
+                <Button
+                  text="Browse"
+                  bgColor={"bg-primary"}
+                  textColor={"text-white"}
                 />
               </div>
             </div>
@@ -34,16 +34,16 @@ const Category = () => {
                 <p className='mb-[2px] text-white'>Enjoy</p>
                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
                 <p className='text-4xl xl:text-5xl font-bold opacity-20 mb-2'>Gadget</p>
-                <Button 
-                text="Browse"
-                bgColor={"bg-white"}
-                textColor={"text-brandYellow"}
+                <Button
+                  text="Browse"
+                  bgColor={"bg-white"}
+                  textColor={"text-brandYellow"}
                 />
               </div>
             </div>
             <img src={Image2} alt="" className='w-[250px] absolute -right-12 lg:top-[40px]' />
           </div>
-          {/* third col */} 
+          {/* third col */}
           <div className='sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-primary
           to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end'>
             <div className='space-y-3'>
@@ -51,10 +51,10 @@ const Category = () => {
                 <p className='mb-[2px] text-white'>Enjoy</p>
                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
                 <p className='text-5xl xl:text-5xl font-bold opacity-20 mb-2'>Laptop</p>
-                <Button 
-                text="Browse"
-                bgColor={"bg-white"}
-                textColor={"text-primary"}
+                <Button
+                  text="Browse"
+                  bgColor={"bg-white"}
+                  textColor={"text-primary"}
                 />
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from'../Shared/Button'
+import Button from '../Shared/Button'
 import Image1 from '../../assets/category/gaming.png'
 import Image2 from '../../assets/category/vr.png'
 import Image3 from '../../assets/category/speaker.png'
@@ -17,10 +17,10 @@ const Category = () => {
                 <p className='mb-[2px] text-white'>Enjoy</p>
                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
                 <p className='text-5xl xl:text-5xl font-bold opacity-20 mb-2'>Laptop</p>
-                <Button 
-                text="Browse"
-                bgColor={"bg-primary"}
-                textColor={"text-white"}
+                <Button
+                  text="Browse"
+                  bgColor={"bg-primary"}
+                  textColor={"text-white"}
                 />
               </div>
             </div>
@@ -34,16 +34,16 @@ const Category = () => {
                 <p className='mb-[2px] text-white'>Enjoy</p>
                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
                 <p className='text-4xl xl:text-5xl font-bold opacity-20 mb-2'>Gadget</p>
-                <Button 
-                text="Browse"
-                bgColor={"bg-white"}
-                textColor={"text-brandGreen"}
+                <Button
+                  text="Browse"
+                  bgColor={"bg-white"}
+                  textColor={"text-brandGreen"}
                 />
               </div>
             </div>
             <img src={Image2} alt="" className='w-[250px] absolute bottom-0 right-0' />
           </div>
-          {/* third col */} 
+          {/* third col */}
           <div className='py-10 pl-5 bg-gradient-to-br from-brandBlue
           to-brandBlue/90 text-white rounded-3xl relative h-[320px] flex items-start'>
             <div>
@@ -51,10 +51,10 @@ const Category = () => {
                 <p className='mb-[2px] text-gray-400'>Enjoy</p>
                 <p className='text-2xl font-semibold mb-[2px]'>With</p>
                 <p className='text-4xl xl:text-5xl font-bold opacity-20 mb-2'>Earphone</p>
-                <Button 
-                text="Browse"
-                bgColor={"bg-white"}
-                textColor={"text-brandBlue"}
+                <Button
+                  text="Browse"
+                  bgColor={"bg-white"}
+                  textColor={"text-brandBlue"}
                 />
               </div>
             </div>
